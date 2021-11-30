@@ -22,6 +22,10 @@ https://www.figma.com/file/frSFlNSr9Ln8wGMFwwsh67/landing-page-para-html?node-id
 
     #C9F0FF
 
+### Marrom
+
+    #413F3F
+
 <br>
 
 ## Fontes da página:
