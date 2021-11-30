@@ -57,61 +57,6 @@
   font-weight: 900;
 }
 
-/*-------------------------------------
-      Importação da fonte Poppins
-  */
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('../assets/fonts/Poppins/Poppins-Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('../assets/fonts/Poppins/Poppins-Thin.ttf');
-  font-weight: 100;
-}
-@font-face {
-  font-family: 'Poppins';
-  src: url('../assets/fonts/Poppins/Poppins-ExtraLight.ttf');
-  font-weight: 200;
-}
-@font-face {
-  font-family: 'Poppins';
-  src: url('../assets/fonts/Poppins/Poppins-Light.ttf');
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'Poppins';
-  src: url('../assets/fonts/Poppins/Poppins-Regular.ttf');
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'Poppins';
-  src: url('../assets/fonts/Poppins/Poppins-Medium.ttf');
-  font-weight: 500;
-}
-@font-face {
-  font-family: 'Poppins';
-  src: url('../assets/fonts/Poppins/Poppins-SemiBold.ttf');
-  font-weight: 600;
-}
-@font-face {
-  font-family: 'Poppins';
-  src: url('../assets/fonts/Poppins/Poppins-Bold.ttf');
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'Poppins';
-  src: url('../assets/fonts/Poppins/Poppins-ExtraBold.ttf');
-  font-weight: 800;
-}
-@font-face {
-  font-family: 'Poppins';
-  src: url('../assets/fonts/Poppins/Poppins-Black.ttf');
-  font-weight: 900;
-}
-
 /*-----------------------------------------------------------------
     Estilo base
 */
@@ -499,4 +444,231 @@ body {
 
 .col-11 > img {
   height: 570px;
+}
+
+/*-------------------------------------
+      Estilo das colunas 5 de 6
+  */
+
+.container-5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  padding: 0px 183px 0px 0px;
+
+  height: 560px;
+
+  background: #e5f0fd;
+}
+
+.col-12 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.col-12 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+/*--------------------------
+     Imagem
+  */
+
+.col-12 > img {
+  height: 560px;
+}
+
+/*--------------------------
+     textos
+  */
+
+.col-13 > h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: right;
+
+  color: #217bf4;
+}
+.col-13 > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 52px;
+
+  text-align: right;
+
+  color: #0a093d;
+}
+.col-13 > p {
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: right;
+
+  color: #656464;
+}
+
+/*--------------------
+    Imagens das lojas de app
+    */
+
+.col-13 > div {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.col-13 > div > img {
+  width: 144.97px;
+  height: 52px;
+
+  margin: 0px 0px 0px 35px;
+
+  filter: drop-shadow(0px 0px 22px rgba(178, 188, 208, 0.21));
+  border-radius: 6px;
+}
+
+/*-------------------------------------
+      Estilo das colunas 5 de 6
+  */
+.container-6 {
+  display: flex;
+  flex-direction: row;
+
+  padding: 280px 0 265px 0;
+
+  justify-content: center;
+  align-items: center;
+}
+/*--------------------------
+     Modal
+  */
+.modal-2 {
+  width: 976px;
+  height: 460px;
+
+  flex-direction: column !important;
+  justify-content: space-around !important;
+
+  background: linear-gradient(154.49deg, #5ca1fe 6.61%, #217bf4 89.72%), #217bf4;
+  border-radius: 20px;
+}
+/*--------------------
+    Textos
+    */
+
+.texto {
+  align-items: center;
+  text-align: center;
+}
+
+.texto > h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.texto > h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: rgba(255, 255, 255, 0.83);
+}
+
+/*--------------------
+    Inputs
+    */
+.input {
+  margin: 44px 31px;
+}
+
+.input > div {
+  display: flex;
+
+  position: relative;
+
+  width: 888px;
+  height: 112px;
+
+  margin-bottom: 26px;
+
+  border-radius: 20px;
+  border: none;
+}
+
+.input > input[type='email'] {
+  width: 868px;
+  height: 52px;
+
+  top: 0;
+
+  padding: 0px 20px !important;
+  margin-bottom: 13px;
+
+  color: #ffffff;
+
+  background: #231a36;
+  border: none;
+  border-radius: 18px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  letter-spacing: 0.01em;
+
+  color: rgba(255, 255, 255, 0.83);
+}
+
+::-webkit-input-placeholder {
+  font-style: 400 !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+
+  color: #fffaf9 !important;
+}
+
+.input > div > textarea {
+  width: 868px;
+
+  padding: 17px 18px 0px 20px !important;
+  margin-bottom: 26px;
+
+  position: absolute;
+  z-index: 1;
+
+  color: #ffffff;
+
+  background: #231a36;
+  border-radius: 20px;
+  border: none;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  letter-spacing: 0.01em;
+
+  color: rgba(255, 255, 255, 0.83);
+}
+
+.sendButton {
+  bottom: 0;
+  right: 0;
+
+  position: absolute;
+  z-index: 2;
+
+  background: none;
 }
