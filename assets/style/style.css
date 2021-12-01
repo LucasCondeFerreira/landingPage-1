@@ -293,6 +293,9 @@
 
   .texto {
     font-size: 24px;
+
+    text-align: left;
+
     color: #413f3f;
   }
 }
@@ -1243,7 +1246,7 @@
     Textos
     */
 @media screen and (min-width: 620px) {
-  .texto {
+  div.texto {
     align-items: center;
     text-align: center;
   }
