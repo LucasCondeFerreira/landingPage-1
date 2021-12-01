@@ -1306,6 +1306,9 @@
 /*--------------------
     Inputs
     */
+button.sendButton {
+  width: 0;
+}
 @media screen and (min-width: 994px) {
   .input {
     margin: 44px 31px;
@@ -1385,6 +1388,12 @@
   .sendButton {
     bottom: 0;
     right: 0;
+    width: 34px;
+    height: 34px;
+
+    content: ' ';
+
+    border: none;
 
     position: absolute;
     z-index: 2;
