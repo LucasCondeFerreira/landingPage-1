@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 440px) {
   body {
-    max-width: 420px;
+    max-width: 100%;
 
     padding: 0 49px;
 
@@ -116,7 +116,7 @@
 }
 @media (min-width: 441px) and (max-width: 991px) {
   body {
-    max-width: 990px;
+    max-width: 100%;
 
     padding: 0 49px;
 
@@ -946,7 +946,7 @@
   .col-md-2 > img {
     height: 269px;
 
-    padding: 0 50px;
+    padding: 0 0 0 50px;
   }
 }
 /*-------------------------------------
@@ -1700,18 +1700,12 @@
      Imagens
   */
 @media screen and (min-width: 994px) {
-  footer > div > img {
-  }
-
   .contato {
     right: 18px;
     padding-right: 18px;
   }
 }
 @media screen and (max-width: 993px) {
-  footer > div > img {
-  }
-
   .contato {
     right: 18px;
     padding-right: 18px;
