@@ -528,7 +528,7 @@
 
 @media screen and (max-width: 993px) {
   .col-md-1 > img {
-    width: 388px;
+    width: 100%;
     height: 287px;
   }
 }
@@ -944,9 +944,8 @@
 
 @media screen and (max-width: 620px) {
   .col-md-2 > img {
+    width: 100%;
     height: 269px;
-
-    padding: 0 0 0 5px;
   }
 }
 /*-------------------------------------
@@ -1004,13 +1003,15 @@
     grid-area: 1 / 1 / 2 / 2;
 
     padding: 35px 0px 0px 0px;
+
+    width: 95%;
   }
   .col-md-3 {
     grid-area: 2 / 1 / 3 / 2;
 
     display: flex;
 
-    padding: 0px 0px 0px 0px;
+    width: 90%;
   }
 }
 
@@ -1216,7 +1217,7 @@
 
 @media screen and (max-width: 440px) {
   .modal-2 {
-    width: 365px;
+    width: 90%;
     height: 448px;
 
     flex-direction: column !important;
@@ -1474,7 +1475,7 @@
 
     position: relative;
 
-    width: 330px;
+    width: 97%;
     height: 118px;
 
     margin-bottom: 26px;
@@ -1484,7 +1485,7 @@
   }
 
   .input > input[type='email'] {
-    width: 305px;
+    width: 87%;
     height: 52px;
 
     top: 0;
@@ -1516,7 +1517,7 @@
   }
 
   .textarea {
-    width: 305px;
+    width: 90%;
 
     padding: 17px 18px 0px 20px !important;
     margin-bottom: 26px;
